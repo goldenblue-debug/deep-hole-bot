@@ -171,3 +171,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 });
 
 client.login(TOKEN);
+
+client.login(TOKEN).catch(err => {
+  console.error('❌ 로그인 실패:', err);
+});
