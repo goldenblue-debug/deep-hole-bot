@@ -1,5 +1,6 @@
 // 🌿 .env 로드
 require('dotenv').config();
+console.log('디버깅 - TOKEN:', process.env.TOKEN);
 
 // 🌐 Express keep-alive 웹서버
 const express = require('express');
